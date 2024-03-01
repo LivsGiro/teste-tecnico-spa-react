@@ -1,0 +1,54 @@
+.card {
+    width: 200px;
+    height: 250px;
+    background-color: var(--darkbrown);
+    box-shadow: 5px 5px 10px var(--shadow);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 4px solid var(--poke-icon-border);
+}
+
+  .card img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid var(--poke-icon-border);
+  }
+
+  .card h3 {
+    text-transform: capitalize;
+    font-size: 17px;
+    color: var(--font-light);
+    padding-top: 3px;
+  }
+  
+  .card h4 {
+    font-size: 13px;
+    color: var(--font-light);
+  }
+  
+  .card .types{
+    color: var(--font-light);
+    padding-top: 3px;
+  }
+
+  .card .types ul{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+  }
+
+  .card .types li {
+    margin: 0 5px; /* Ajusta o espaçamento entre os tipos */
+    padding: 5px 10px; /* Adiciona um pouco de espaçamento interno */
+    background-color: var(--darkbrown); /* Cor de fundo */
+    border-radius: 5px; /* Arredonda as bordas */
+    color: var(--font-light); /* Cor do texto */
+    font-size: 12px;
+    text-transform: capitalize;
+  }
