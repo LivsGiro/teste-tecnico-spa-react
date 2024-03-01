@@ -41,4 +41,36 @@ Seguindo os exemplos dados em aulas do curso Dev em Dobro, criei o caminho de pa
 Como o site é em nossa lingua nativa, implementei essa facilidade para que o usuário possa filtrar entre tipos de pokemon mais facilmente. Com ela, se o usuário não souber os tipos em inglês, mesmo ele escrevendo "fogo", a busca trará todos os pokemons tipo "fire" na página principal.
 
 
-Comandos para rodar o projeto no computador de terceiros (instalar os reacts?)
+Comandos para rodar o projeto no computador de terceiros
+<br>
+Para rodar a minha aplicação no seu computador você precisará fazer um fork do meu repositório no GitHub e instalar as dependências que eu utilizei. Segue um passo a passo.
+
+<strong>Passo a passo para fazer o fork:</strong>
+<br>
+Com sua conta do Github logada acesse o meu repositório: https://github.com/LivsGiro/teste-tecnico-spa-react
+
+No canto superior direito clique em "Fork" e escolha onde deseja que ele seja feito.
+Depois de escolhido o Github criará uma cópia do repositório na sua conta em poucos segundos.
+
+Agora você tem um fork do repositório original na sua conta GitHub. Você pode clonar este fork para o seu computador local, fazer alterações nele, fazer commits e, se desejar, enviar um pull request para contribuir com suas alterações de volta para o repositório original.
+
+<strong>Para rodar o projeto em um servidor local</strong>
+Instalar o Node.js no seu computador: https://nodejs.org/en/
+No arquivos package.json estão listadas todas as dependências que instalei na minha aplicação. Você precisará instalá-las também.
+Essa é a lista de dependências digitando o código correspondente em um terminal novo dentro do Vs Code ou onde você preferir:
+    "axios": "^1.6.7" - npm i axios
+    "react": "^18.2.0" - npm i react
+    "react-dom": "^18.2.0" - npm i react-dom
+    "react-icons": "^5.0.1" - npm i react-icons
+    "react-router-dom": "^6.22.0" - npm i react-router-dom
+    "styled-components": "^6.1.8" - npm i styled-components
+
+Lembre-se de não usar o mesmo terminal para outros procedimentos. Faça a instalação e feche o terminal. 
+
+Após tudo instalado conforme o necessário abra um novo terminal e digite
+npm run dev
+
+E então um servidor local será gerado e você pode clicar nele pressionando o ctrl-L + botão esquerdo do mouse. 
+
+Muito obrigada por acompanhar o meu trabalho!
+Lívia
