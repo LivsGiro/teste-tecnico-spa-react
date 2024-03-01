@@ -14,11 +14,11 @@ Temos um cabeçalho com uma busca, permitindo que o usuário procure por tipo (e
 
 <strong>PERFIL:</strong> essa é a página que o usuário é direcionado quando ele seleciona um pokemon qualquer na página HOME. Ela possui o mesmo cabeçalho da página Home e apresenta detalhes sobre o pokemon escolhido.
 
-[![Pagina PERFIL](https://i9.ytimg.com/vi_webp/5Z_VbTMFpGk/mq2.webp?sqp=CJSwia8G&rs=AOn4CLBm_HInrkfjf8RmAw_u_uD5xlxuLw)(https://youtu.be/5Z_VbTMFpGk)
+[![Pagina PERFIL](https://i9.ytimg.com/vi_webp/5Z_VbTMFpGk/mq2.webp?sqp=CJSwia8G&rs=AOn4CLBm_HInrkfjf8RmAw_u_uD5xlxuLw)](https://youtu.be/5Z_VbTMFpGk)
 
 <strong>PAGE 404:</strong> essa página possui o mesmo cabeçalho e ela aparece quando algum caminho não existente é acessado. Permitindo retornar a página principal clicando no ícone "Pokemon".
 
-[![PAGE 404](https://i9.ytimg.com/vi_webp/iSnTOWPgCk4/mq2.webp?sqp=CMCyia8G&rs=AOn4CLCe3Tpxcpp39drkLXGXXFOnqYiq4Q)(https://youtu.be/iSnTOWPgCk4)
+[![PAGE 404](https://i9.ytimg.com/vi_webp/iSnTOWPgCk4/mq2.webp?sqp=CMCyia8G&rs=AOn4CLCe3Tpxcpp39drkLXGXXFOnqYiq4Q)](https://youtu.be/iSnTOWPgCk4)
 
 Ferramentas utilizadas e porquê
 Vite - servidor moderno utilizado para o desenvolvimento da aplicação.
