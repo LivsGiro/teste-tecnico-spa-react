@@ -9,7 +9,8 @@ Essa aplicação possui três páginas definidas:
 <strong>HOME:</strong> a primeira página consiste, principalmente, em apresentar os 10 primeiros pokemons em ordem numérica, com um botão que serve para requisitar que mais pokemons sejam apresentados na tela. 
 Temos um cabeçalho com uma busca, permitindo que o usuário procure por tipo (em inglês ou português), por número ou por nome. Essa busca filtra os pokemons a medida que o texto é escrito, em tempo real. Também nesse cabeçalho temos um ícone que, quando clicado, retorna-se para a página inicial, independente de qual página você esteja, e temos um botão para mudar o Tema entre claro/escuro.
 
-<iframe width="560" height="315" src="https://youtu.be/wTZb8cq6T8Y" frameborder="0" allowfullscreen></iframe>
+[![Pagina HOME](https://i9.ytimg.com/vi_webp/wTZb8cq6T8Y/mq1.webp?sqp=CLyria8G&rs=AOn4CLDQv7ZizLhC_0BzTyIETCdHlQO1DQ)](https://youtu.be/wTZb8cq6T8Y)
+
 
 <strong>PERFIL:</strong> essa é a página que o usuário é direcionado quando ele seleciona um pokemon qualquer na página HOME. Ela possui o mesmo cabeçalho da página Home e apresenta detalhes sobre o pokemon escolhido.
 
