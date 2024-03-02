@@ -5,7 +5,6 @@ const getPokemonDataByPokemonId = async (pokemonId) => {
     const pokemonResponse = await axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonId}`);
     const pokemonData = pokemonResponse.data;
 
-    // Extrair as URLs dos sprites
     const sprites = pokemonData.sprites;
     const spriteUrls = Object.values(sprites).filter(url => url);
     const types = pokemonData.types.map(type => type.type.name);

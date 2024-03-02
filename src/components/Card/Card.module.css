@@ -44,11 +44,11 @@
   }
 
   .card .types li {
-    margin: 0 5px; /* Ajusta o espaçamento entre os tipos */
-    padding: 5px 10px; /* Adiciona um pouco de espaçamento interno */
-    background-color: var(--darkbrown); /* Cor de fundo */
-    border-radius: 5px; /* Arredonda as bordas */
-    color: var(--font-light); /* Cor do texto */
+    margin: 0 5px; 
+    padding: 5px 10px;
+    background-color: var(--darkbrown); 
+    border-radius: 5px; 
+    color: var(--font-light); 
     font-size: 12px;
     text-transform: capitalize;
   }

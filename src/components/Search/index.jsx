@@ -6,7 +6,7 @@ const Search = ({ onSearch }) => {
 
     const handleChange = (event) => {
         setSearchTerm(event.target.value);
-        onSearch(event.target.value); // Chame a função de busca ao alterar o termo de pesquisa
+        onSearch(event.target.value);
       };
 
     return (
@@ -19,6 +19,4 @@ const Search = ({ onSearch }) => {
     );
 };
 
-// Exporte o componente Search
 export default Search;
-

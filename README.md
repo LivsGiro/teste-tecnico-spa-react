@@ -58,6 +58,8 @@ Agora você tem um fork do repositório original na sua conta GitHub. Você pode
 Instalar o Node.js no seu computador: https://nodejs.org/en/
 No arquivos package.json estão listadas todas as dependências que instalei na minha aplicação. Você precisará instalá-las também.
 Essa é a lista de dependências digitando o código correspondente em um terminal novo dentro do Vs Code ou onde você preferir:
+Observação: confira se o comando não mudou.
+
     "axios": "^1.6.7" - npm i axios
     "react": "^18.2.0" - npm i react
     "react-dom": "^18.2.0" - npm i react-dom

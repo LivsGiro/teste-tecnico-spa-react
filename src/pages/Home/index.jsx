@@ -60,10 +60,10 @@ function Home() {
     }
 
     const filteredPokemons = pokemons.filter(pokemon =>
-      pokemon.id.toString() === formattedSearchTerm || // Busca por número
-      pokemon.name.includes(formattedSearchTerm) || // Busca por nome
-      pokemon.types.some(type => type.type.name.includes(formattedSearchTerm)) // Busca por tipo
-    );
+      pokemon.id.toString() === formattedSearchTerm || 
+      pokemon.name.includes(formattedSearchTerm) || 
+      pokemon.types.some(type => type.type.name.includes(formattedSearchTerm)) 
+      );
 
     setSearchResults(filteredPokemons);
   };
